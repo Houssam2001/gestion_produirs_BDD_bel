@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Consulter une commande</title>
+	</head>
+	<body>
+		<form th:action="@{/detailsCommande}" method="post">
+		<label>Num commande</label>
+		<input type="text" name="idCommande" />
+		<input type="submit" value="Consulter" />
+		</form>
+	</body>
+</html>

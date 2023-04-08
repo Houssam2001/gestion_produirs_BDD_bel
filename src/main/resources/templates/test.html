@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title>Consulter produit sachant sa désignation</title>
+	</head>
+	<body>
+		<p th:text="${p.designation}"></p>
+		<p th:text="${p.prix}"></p>
+		<p><img th:src="'../images/' + ${p.photo}" /></p>
+	</body>
+</html>
